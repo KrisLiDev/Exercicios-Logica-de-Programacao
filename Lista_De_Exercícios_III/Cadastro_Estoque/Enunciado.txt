@@ -1,0 +1,18 @@
+1 — Cadastro de Produtos
+
+Crie um sistema que permita:
+
+cadastrar produto
+listar produtos
+buscar produto por nome
+
+Cada produto deve ter:
+
+Nome
+Preço
+Quantidade em estoque
+
+Extras:
+
+mostrar valor total em estoque (preço * quantidade)
+impedir preço negativo

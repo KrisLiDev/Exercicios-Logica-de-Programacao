@@ -1,0 +1,24 @@
+4 — Sistema de Alunos
+
+Crie uma classe Aluno com:
+
+Nome
+Nota1
+Nota2
+
+O sistema deve:
+
+cadastrar alunos
+calcular média
+mostrar:
+aprovado
+recuperação
+reprovado
+
+Regras:
+
+= 7 aprovado
+
+= 5 recuperação
+
+< 5 reprovado

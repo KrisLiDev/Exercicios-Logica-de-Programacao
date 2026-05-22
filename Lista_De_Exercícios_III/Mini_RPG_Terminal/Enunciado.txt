@@ -1,0 +1,23 @@
+7 — Mini RPG de Terminal ⚔️
+
+Agora um mais divertido.
+
+Crie:
+
+nome do personagem
+vida
+ataque
+
+Menu:
+
+atacar inimigo
+tomar dano
+mostrar status
+curar
+
+Extras:
+
+impedir vida negativa
+impedir vida acima do máximo
+
+Esse aqui vai te ensinar MUITO sobre estado de objeto.

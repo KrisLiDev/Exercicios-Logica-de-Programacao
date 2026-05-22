@@ -1,0 +1,13 @@
+8 — Desafio de Refatoração (IMPORTANTE)
+
+Pegue QUALQUER exercício antigo seu e:
+
+organize melhor
+crie métodos
+elimine repetição
+melhore nomes
+melhore menus
+
+Isso é absurdamente importante no mundo real.
+
+Programador profissional passa MUITO tempo refatorando.

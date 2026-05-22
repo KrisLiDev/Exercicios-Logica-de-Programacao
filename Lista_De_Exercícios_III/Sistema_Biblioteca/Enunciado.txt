@@ -1,0 +1,19 @@
+6 — Sistema de Biblioteca
+
+Cadastre livros:
+
+Título
+Autor
+Ano
+
+Funções:
+
+cadastrar
+listar
+buscar
+emprestar livro
+devolver livro
+
+Dica:
+
+use um bool Emprestado

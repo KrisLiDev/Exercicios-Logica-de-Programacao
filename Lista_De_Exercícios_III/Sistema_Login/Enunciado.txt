@@ -1,0 +1,14 @@
+2 — Sistema de Login Simples
+
+Crie um programa que:
+
+peça usuário e senha
+permita 3 tentativas
+exiba:
+“Login realizado”
+ou “Usuário bloqueado”
+
+Extras:
+
+usar while
+usar contador de tentativas

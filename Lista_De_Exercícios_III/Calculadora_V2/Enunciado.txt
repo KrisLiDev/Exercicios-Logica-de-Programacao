@@ -1,0 +1,14 @@
+3 — Calculadora Melhorada
+
+Pegue sua calculadora atual e:
+
+elimine repetição de código
+crie métodos:
+Somar()
+Subtrair()
+Multiplicar()
+Dividir()
+
+Extras:
+
+impedir divisão por zero

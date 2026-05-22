@@ -1,0 +1,17 @@
+5 — Agenda Telefônica
+
+Crie uma lista de contatos.
+
+Cada contato:
+
+Nome
+Telefone
+
+Funções:
+
+cadastrar
+listar
+buscar por nome
+remover contato
+
+Esse é MUITO bom pra praticar listas.
