@@ -1,0 +1,14 @@
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Lista_De_Exercícios\obj\Debug\net10.0\Lista_De_Exercícios.GeneratedMSBuildEditorConfig.editorconfig
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Lista_De_Exercícios\obj\Debug\net10.0\Lista_De_Exercícios.AssemblyInfoInputs.cache
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Lista_De_Exercícios\obj\Debug\net10.0\Lista_De_Exercícios.AssemblyInfo.cs
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Lista_De_Exercícios\obj\Debug\net10.0\Lista_De_Exercícios.csproj.CoreCompileInputs.cache
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Lista_De_Exercícios\bin\Debug\net10.0\Lista_De_Exercícios.exe
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Lista_De_Exercícios\bin\Debug\net10.0\Lista_De_Exercícios.deps.json
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Lista_De_Exercícios\bin\Debug\net10.0\Lista_De_Exercícios.runtimeconfig.json
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Lista_De_Exercícios\bin\Debug\net10.0\Lista_De_Exercícios.dll
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Lista_De_Exercícios\bin\Debug\net10.0\Lista_De_Exercícios.pdb
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Lista_De_Exercícios\obj\Debug\net10.0\Lista_De_Exercícios.dll
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Lista_De_Exercícios\obj\Debug\net10.0\refint\Lista_De_Exercícios.dll
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Lista_De_Exercícios\obj\Debug\net10.0\Lista_De_Exercícios.pdb
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Lista_De_Exercícios\obj\Debug\net10.0\Lista_De_Exercícios.genruntimeconfig.cache
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Lista_De_Exercícios\obj\Debug\net10.0\ref\Lista_De_Exercícios.dll
