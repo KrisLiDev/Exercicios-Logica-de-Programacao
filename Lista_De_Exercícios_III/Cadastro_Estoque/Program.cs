@@ -16,8 +16,7 @@ public class Program
             Console.WriteLine("1 - Cadastrar produto");
             Console.WriteLine("2 - Listar produtos");
             Console.WriteLine("3 - Buscar produtos");
-            Console.WriteLine("4 - Exibir valores de estoque");
-            Console.WriteLine("5 - Fechar sistema");
+            Console.WriteLine("4 - Fechar programa");
         }
         
     }

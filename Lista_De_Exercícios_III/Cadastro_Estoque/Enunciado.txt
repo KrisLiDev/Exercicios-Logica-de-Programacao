@@ -2,17 +2,17 @@
 
 Crie um sistema que permita:
 
-cadastrar produto
-listar produtos
+cadastrar produto - feito
+listar produtos - feito
 buscar produto por nome
 
 Cada produto deve ter:
 
-Nome
-Preço
-Quantidade em estoque
+Nome - feito
+Preço - feito
+Quantidade em estoque - feito
 
 Extras:
 
-mostrar valor total em estoque (preço * quantidade)
-impedir preço negativo
+mostrar valor total em estoque (preço * quantidade) - feito
+impedir preço negativo - feito

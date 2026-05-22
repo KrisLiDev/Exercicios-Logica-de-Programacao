@@ -19,6 +19,11 @@ public static class Actions
             novoProduto.Quantidade = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite o preço do produto: ");
             novoProduto.Valor = float.Parse(Console.ReadLine().Replace(",", "."), CultureInfo.InvariantCulture);
+            while (novoProduto.Valor <= 0)
+            {
+                Console.WriteLine("Valor inválido.\nDigite o preço do produto: ");
+                novoProduto.Valor = float.Parse(Console.ReadLine().Replace(",", "."), CultureInfo.InvariantCulture);
+            }
 
             Console.WriteLine("Exibindo dados:");
             Console.WriteLine(novoProduto.Nome);
@@ -95,5 +100,10 @@ public static class Actions
         {
             Console.WriteLine($"{Produto.Nome,-15} | {Produto.Code,-8} | {Produto.Quantidade,-6} | {"R$ " + Produto.Valor.ToString("F2"),-10} | {"R$ " + (Produto.Valor * Produto.Quantidade).ToString("F2"),-10}");
         }
+
+        Console.WriteLine("Aperte Enter para retornar ao menu.");
+        Console.ReadLine();
     }
+
+
 }
