@@ -1,15 +1,24 @@
-﻿namespace Cad_Estoque;
+﻿using System.Globalization;
+
+namespace Cad_Estoque;
 
 public class Program
 {
     public static void Main()
     {
-        Console.WriteLine("Sistema de Estoque:\nArmazem do Zé");
+        string Menu = "s";
+        List<Produto> ListaProdutos = new List<Produto>
 
-        Console.WriteLine("1 - Cadastrar produto");
-        Console.WriteLine("2 - Listar produtos");
-        Console.WriteLine("3 - Buscar produtos");
-        Console.WriteLine("4 - Exibir valores de estoque");
-        Console.WriteLine("5 - Fechar sistema");
+        while (Menu == "s")
+        {
+            Console.WriteLine("Sistema de Estoque:\nArmazem do Zé");
+
+            Console.WriteLine("1 - Cadastrar produto");
+            Console.WriteLine("2 - Listar produtos");
+            Console.WriteLine("3 - Buscar produtos");
+            Console.WriteLine("4 - Exibir valores de estoque");
+            Console.WriteLine("5 - Fechar sistema");
+        }
+        
     }
 }
