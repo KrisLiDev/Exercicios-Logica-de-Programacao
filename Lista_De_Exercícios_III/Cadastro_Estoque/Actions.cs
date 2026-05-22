@@ -10,21 +10,21 @@ public static class Actions
 
         while (Repetir == "s")
         {
-            var NovoProduto = new Produto();
+            var novoProduto = new Produto();
             Console.WriteLine("Digite o nome do produto: ");
-            NovoProduto.Nome = Console.ReadLine();
+            novoProduto.Nome = Console.ReadLine();
             Console.WriteLine("Digite o código do produto: ");
-            NovoProduto.Code = Console.ReadLine().ToUpper();
+            novoProduto.Code = Console.ReadLine().ToUpper();
             Console.WriteLine("Digite a quantidade em estoque: ");
-            NovoProduto.Quantidade = int.Parse(Console.ReadLine());
+            novoProduto.Quantidade = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite o preço do produto: ");
-            NovoProduto.Valor = float.Parse(Console.ReadLine().Replace(",", "."), CultureInfo.InvariantCulture);
+            novoProduto.Valor = float.Parse(Console.ReadLine().Replace(",", "."), CultureInfo.InvariantCulture);
 
             Console.WriteLine("Exibindo dados:");
-            Console.WriteLine(NovoProduto.Nome);
-            Console.WriteLine(NovoProduto.Code);
-            Console.WriteLine(NovoProduto.Quantidade);
-            Console.WriteLine(NovoProduto.Valor);
+            Console.WriteLine(novoProduto.Nome);
+            Console.WriteLine(novoProduto.Code);
+            Console.WriteLine(novoProduto.Quantidade);
+            Console.WriteLine(novoProduto.Valor);
 
             Console.WriteLine("Os dados estão corretos?\n(s/n)");
             string Correto = Console.ReadLine().ToLower();
@@ -38,7 +38,7 @@ public static class Actions
                         string Adicionar = Console.ReadLine().ToLower();
                         if (Adicionar == "s")
                         {
-                            ListaProdutos.Add(NovoProduto);
+                            ListaProdutos.Add(novoProduto);
                             Console.WriteLine("Produto adicionado com sucesso.");
                             TriggerAddEstoque = "n";
                         }
@@ -84,6 +84,16 @@ public static class Actions
                     }
                 break;    
             }
+        }
+    }
+
+    public static void Listar()
+    {
+        Console.WriteLine($"{"NOME",-15} | {"CÓDIGO",-8} | {"QTD",-6} | {"PREÇO",-10} | {"TOTAL",-10}");
+        Console.WriteLine(new string('-', 59));
+        foreach (Produto Produto in ListaProdutos)
+        {
+            Console.WriteLine($"{Produto.Nome,-15} | {Produto.Code,-8} | {Produto.Quantidade,-6} | {"R$ " + Produto.Valor.ToString("F2"),-10} | {"R$ " + (Produto.Valor * Produto.Quantidade).ToString("F2"),-10}");
         }
     }
 }
