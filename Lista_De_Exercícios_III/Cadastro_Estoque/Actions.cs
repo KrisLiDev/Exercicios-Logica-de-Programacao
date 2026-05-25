@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using System.Globalization;
 
 namespace Cad_Estoque;
@@ -90,6 +92,8 @@ public static class Actions
                 break;    
             }
         }
+        Console.WriteLine("\nAperte Enter para retornar ao menu.");
+        Console.ReadLine();
     }
 
     public static void Listar()
@@ -105,5 +109,69 @@ public static class Actions
         Console.ReadLine();
     }
 
+    public static void Pesquisar()
+    {
+        List<Produto> ProdutoSearch = new List<Produto>();
+        string searchRefRepeat = "s";
 
+        while (searchRefRepeat == "s")
+        {
+            Console.WriteLine("Qual será a referência de Busca?\n1 - Código\n2 - Nome");
+            string searchRef = Console.ReadLine();
+            
+            if (searchRef == "1")
+            {
+                Console.WriteLine("Digite o produto que está buscando: ");
+                string Pesquisa = Console.ReadLine();
+                foreach (Produto Produto in ListaProdutos == Pesquisa)
+                {
+                    if (produto.Code == Pesquisa)
+                    {
+                        ProdutoSearch.Add(produto);
+                    }
+                }
+                searchRefRepeat = "n";
+
+            }
+
+            else if (searchRef == "2")
+            {
+                Console.WriteLine("Digite o produto que está buscando: ");
+                string Pesquisa = Console.ReadLine().ToUpper();
+                foreach (Produto Produto in ListaProdutos)
+                {
+                    if (produto.Nome.ToLower().Contains(Pesquisa))
+                    {
+                        ProdutoSearch.Add(produto);
+                    }
+                }
+                searchRefRepeat = "n";
+            }
+
+            else
+            {
+                Console.WriteLine("Entrada inválida.");
+                searchRefRepeat = "s";
+            }
+        }
+        
+        
+        if (ProdutoSearch is [])
+        {
+            Console.WriteLine("Nenhum produto encontrado.");
+        }
+
+        else
+        {
+            Console.WriteLine($"{"NOME",-15} | {"CÓDIGO",-8} | {"QTD",-6} | {"PREÇO",-10} | {"TOTAL",-10}");
+            Console.WriteLine(new string('-', 59));
+            foreach (Produto Produto in ProdutoSearch)
+            {
+                Console.WriteLine($"{Produto.Nome,-15} | {Produto.Code,-8} | {Produto.Quantidade,-6} | {"R$ " + Produto.Valor.ToString("F2"),-10} | {"R$ " + (Produto.Valor * Produto.Quantidade).ToString("F2"),-10}");
+            }
+        }
+
+        Console.WriteLine("\nAperte Enter para retornar ao menu.");
+        Console.ReadLine();
+    }
 }
