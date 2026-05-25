@@ -14,7 +14,7 @@ public static class Actions
         {
             var novoProduto = new Produto();
             Console.WriteLine("Digite o nome do produto: ");
-            novoProduto.Nome = Console.ReadLine();
+            novoProduto.Nome = Console.ReadLine().ToLower();
             Console.WriteLine("Digite o código do produto: ");
             novoProduto.Code = Console.ReadLine().ToUpper();
             Console.WriteLine("Digite a quantidade em estoque: ");
@@ -122,12 +122,12 @@ public static class Actions
             if (searchRef == "1")
             {
                 Console.WriteLine("Digite o produto que está buscando: ");
-                string Pesquisa = Console.ReadLine();
-                foreach (Produto Produto in ListaProdutos == Pesquisa)
+                string Pesquisa = Console.ReadLine().ToLower();
+                foreach (Produto Produto in ListaProdutos)
                 {
-                    if (produto.Code == Pesquisa)
+                    if (Produto.Code == Pesquisa)
                     {
-                        ProdutoSearch.Add(produto);
+                        ProdutoSearch.Add(Produto);
                     }
                 }
                 searchRefRepeat = "n";
@@ -137,12 +137,12 @@ public static class Actions
             else if (searchRef == "2")
             {
                 Console.WriteLine("Digite o produto que está buscando: ");
-                string Pesquisa = Console.ReadLine().ToUpper();
+                string Pesquisa = Console.ReadLine().ToLower();
                 foreach (Produto Produto in ListaProdutos)
                 {
-                    if (produto.Nome.ToLower().Contains(Pesquisa))
+                    if (Produto.Nome.ToLower().Contains(Pesquisa))
                     {
-                        ProdutoSearch.Add(produto);
+                        ProdutoSearch.Add(Produto);
                     }
                 }
                 searchRefRepeat = "n";
@@ -156,7 +156,7 @@ public static class Actions
         }
         
         
-        if (ProdutoSearch is [])
+        if (ProdutoSearch.Count == 0)
         {
             Console.WriteLine("Nenhum produto encontrado.");
         }
