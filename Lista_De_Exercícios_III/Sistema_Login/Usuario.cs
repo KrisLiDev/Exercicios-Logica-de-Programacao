@@ -7,5 +7,5 @@ public class User
     public string username;
     public string password;
     public int tentativasFalhas;
-    public bool status;
+    public bool bloqueio;
 }

@@ -23,7 +23,7 @@ public static class Autenticador
                 User.tentativasFalhas++;
                 if (User.tentativasFalhas >= 3)
                 {
-                    User.Bloqueio = true;
+                    User.bloqueio = true;
                 }
                 return "Acesso Negado";
             }
