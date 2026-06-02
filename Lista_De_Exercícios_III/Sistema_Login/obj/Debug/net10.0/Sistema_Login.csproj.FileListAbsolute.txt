@@ -1,0 +1,15 @@
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\obj\Debug\net10.0\Sistema_Login.GeneratedMSBuildEditorConfig.editorconfig
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\obj\Debug\net10.0\Sistema_Login.AssemblyInfoInputs.cache
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\obj\Debug\net10.0\Sistema_Login.AssemblyInfo.cs
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\obj\Debug\net10.0\Sistema_Login.csproj.CoreCompileInputs.cache
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\obj\Debug\net10.0\Sistema_Login.sourcelink.json
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\bin\Debug\net10.0\Sistema_Login.exe
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\bin\Debug\net10.0\Sistema_Login.deps.json
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\bin\Debug\net10.0\Sistema_Login.runtimeconfig.json
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\bin\Debug\net10.0\Sistema_Login.dll
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\bin\Debug\net10.0\Sistema_Login.pdb
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\obj\Debug\net10.0\Sistema_Login.dll
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\obj\Debug\net10.0\refint\Sistema_Login.dll
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\obj\Debug\net10.0\Sistema_Login.pdb
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\obj\Debug\net10.0\Sistema_Login.genruntimeconfig.cache
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Sistema_Login\obj\Debug\net10.0\ref\Sistema_Login.dll

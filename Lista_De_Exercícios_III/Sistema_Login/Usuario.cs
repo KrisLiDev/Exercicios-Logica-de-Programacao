@@ -2,10 +2,10 @@ using System;
 
 namespace Login_System;
 
-public class User
+public static class User
 {
-    public string username;
-    public string password;
-    public int tentativasFalhas;
-    public bool bloqueio;
+    public static string username = "XaolinMatadorDePorco123";
+    public static string password = "SenhaNadaSegura#CONFIA";
+    public static int tentativasFalhas = 0;
+    public static bool bloqueio = false;
 }
