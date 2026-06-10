@@ -1,0 +1,15 @@
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\obj\Debug\net10.0\Calculadora_V2.GeneratedMSBuildEditorConfig.editorconfig
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\obj\Debug\net10.0\Calculadora_V2.AssemblyInfoInputs.cache
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\obj\Debug\net10.0\Calculadora_V2.AssemblyInfo.cs
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\obj\Debug\net10.0\Calculadora_V2.csproj.CoreCompileInputs.cache
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\obj\Debug\net10.0\Calculadora_V2.sourcelink.json
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\bin\Debug\net10.0\Calculadora_V2.exe
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\bin\Debug\net10.0\Calculadora_V2.deps.json
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\bin\Debug\net10.0\Calculadora_V2.runtimeconfig.json
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\bin\Debug\net10.0\Calculadora_V2.dll
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\bin\Debug\net10.0\Calculadora_V2.pdb
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\obj\Debug\net10.0\Calculadora_V2.dll
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\obj\Debug\net10.0\refint\Calculadora_V2.dll
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\obj\Debug\net10.0\Calculadora_V2.pdb
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\obj\Debug\net10.0\Calculadora_V2.genruntimeconfig.cache
+C:\KrisLiDevThings\Estudos\.NET\Estudos\Listas_Estudos_C#\Lista_De_Exercícios_III\Calculadora_V2\obj\Debug\net10.0\ref\Calculadora_V2.dll
