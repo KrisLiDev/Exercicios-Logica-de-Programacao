@@ -3,26 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Sistema_De_Alunos;
+namespace Lista_Telefonica;
 
 public class Program
 {
     public static void Main()
     {
-        List<Aluno> listaAlunos = new List<Aluno>();
+        List<Contato> listaContatos = new List<Contato>();
 
         bool rodando = true;
 
         while (rodando)
         {
-            Console.Clear(); // Limpa a tela toda vez que volta ao menu
+            Console.Clear();
             Console.WriteLine("=================================");
-            Console.WriteLine("       SISTEMA DE ALUNOS         ");
+            Console.WriteLine("        LISTA TELEFÔNICA         ");
             Console.WriteLine("=================================");
-            Console.WriteLine("1 - Cadastrar Aluno");
-            Console.WriteLine("2 - Listar Aprovados (Média >= 7)");
-            Console.WriteLine("3 - Listar Recuperação (Média 5 a 6.9)");
-            Console.WriteLine("4 - Listar Reprovados (Média < 5)");
+            Console.WriteLine("1 - Cadastrar Contato");
+            Console.WriteLine("2 - Listar Contatos");
+            Console.WriteLine("3 - Buscar Contatos");
+            Console.WriteLine("4 - Remover Contato");
             Console.WriteLine("5 - Sair");
             Console.WriteLine("=================================");
             Console.Write("Escolha uma opção: ");
@@ -34,23 +34,23 @@ public class Program
             switch (opcao)
             {
                 case 1:
-                    Metodos.Cadastrar();
+                    Function.Cadastrar();
                     break;
 
                 case 2:
-                    Metodos.ListarAprovados();
+                    Function.Listar();
                     Console.WriteLine("\nAperte qualquer tecla para voltar ao menu...");
                     Console.ReadKey();
                     break;
 
                 case 3:
-                    Metodos.ListarRecuperação();
+                    Function.Buscar();
                     Console.WriteLine("\nAperte qualquer tecla para voltar ao menu...");
                     Console.ReadKey();
                     break;
 
                 case 4:
-                    Metodos.ListarReprovados();
+                    Function.Remover();
                     Console.WriteLine("\nAperte qualquer tecla para voltar ao menu...");
                     Console.ReadKey();
                     break;

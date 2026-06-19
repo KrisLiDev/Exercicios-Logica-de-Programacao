@@ -1,14 +1,13 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Sistema_De_Alunos
+namespace Lista_Telefonica
 {
-    public class Aluno
+    public class Contato
     {
         public string Nome;
-        public float Nota1;
-        public float Nota2;
+        public string Telefone;
     }
 }
